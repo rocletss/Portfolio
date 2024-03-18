@@ -1,0 +1,39 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: content-box;
+      font-family: Libre Bodoni;
+}
+header{
+      font-family:Yuji Syuku;
+}
+body{
+      background-color: #EAE5DF;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+.bordes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      padding: 1rem;
+    }
+.ilust {
+      width: 40%; 
+      margin-bottom: 10px; 
+      padding: 1.5em;
+      transition: 1s;
+      height: auto;
+    }
+.ilust:hover{
+	max-width: 100%;
+	padding: 0em;
+}
+
+@media only screen and (max-width: 768px) {
+.ilust {
+    width: 100%; 
+  }
+}
