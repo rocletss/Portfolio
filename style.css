@@ -8,6 +8,29 @@
 header{
       font-family:Yuji Syuku;
 }
+
+ul{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AD9981;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 8px;
+  
+}
+li a:hover {
+  background-color: #EAE5DF;
+}
+.active {
+  background-color: #04AA6D;
+}
+
 body{
       background-color: #EAE5DF;
       display: flex;
@@ -26,10 +49,12 @@ body{
       padding: 1.5em;
       transition: 1s;
       height: auto;
+     
     }
 .ilust:hover{
 	max-width: 100%;
 	padding: 0em;
+      box-shadow:  10px 5px 5px darkgray;
 }
 
 @media only screen and (max-width: 768px) {
