@@ -38,7 +38,9 @@ li a:hover {
 .active {
   background-color: #E4E6D9;
 }
-
+nav{
+      color: darkgray;
+}
 body{
       background-color: #E4E6D9;
       display: flex;
