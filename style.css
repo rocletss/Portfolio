@@ -7,6 +7,9 @@
 }
 header{
       font-family:Yuji Syuku;
+      display: flex;
+      justify-content: center;
+      padding: 1.2rem;
 }
 .owner{
       color: lightgray;
@@ -22,7 +25,8 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6D8777;
+  background-color: #333;
+     
 }
 li {
   float: left;
@@ -35,12 +39,20 @@ li a {
 li a:hover {
   background-color: #273526;
 }
-.active {
+/*.active {
   background-color: #E4E6D9;
+}*/
+nav{
+
+      border-bottom:solid 1px #5e6464;
+      width:100%;
+      box-shadow:  0px 4px 10px black;
+      
 }
 nav a{
       color: white;
       text-decoration: none;
+
 }
 body{
       background-color: #333;
@@ -70,11 +82,19 @@ body{
 footer{
   background-color: #333;
   margin: 2rem;
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-items: center;
   justify-content: center;
   color: lightgray;
   
 }
+/*
+.email{
+      align-self: safe center;
+
+}*/
 .logotipo{
      margin: 0.4rem;
 
