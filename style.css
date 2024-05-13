@@ -25,7 +25,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #5F6F52;
      
 }
 li {
@@ -55,7 +55,7 @@ nav a{
 
 }
 body{
-      background-color: #333;
+      background-color: lightgray;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
@@ -71,16 +71,16 @@ body{
       margin: 1.3em;
       transition: 1s;
       height: auto;
-     box-shadow:  10px 5px 5px black;
+     box-shadow:  10px 5px 5px darkgray;
     }
 .ilust:hover{
 	max-width: 100%;
 	margin: 0em;
-      box-shadow:  16px 8px 8px black;
+      box-shadow:  16px 8px 8px darkgray;
 }
 
 footer{
-  background-color: #333;
+  background-color: #5F6F52;
   margin: 2rem;
   display: flex;
   flex-wrap: wrap;
