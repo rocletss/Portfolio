@@ -2,7 +2,7 @@
 *{
       margin: 0;
       padding: 0;
-      box-sizing: content-box;
+       box-sizing: border-box;
       font-family: Libre Bodoni;
 }
 header{
@@ -67,6 +67,7 @@ body{
       align-items: center;
       padding: 1rem;
     }
+
 .ilust {
       width: 40%; 
       margin: 1.3em;
@@ -77,8 +78,8 @@ body{
 
 
 .ilust:hover{
-      max-width: 100%;
-      margin: 0em;
+     
+      margin: 0.7em;
       box-shadow:  16px 8px 8px darkgray;
 }
 
@@ -105,8 +106,8 @@ footer{
 .ilust {
     width: 100%; 
   }
-   .tooltip {
-    width: 100%; 
+  .contenedor .tooltip {
+    flex: 0 1 100%; 
     
 }
 }

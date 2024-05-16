@@ -1,11 +1,10 @@
 .tooltip {
   position: relative;
-  display: inline-block;
 
 }
 
 
-.tooltip .tooltiptext {
+.tooltiptext {
   visibility: hidden; 
   width: 120px;
   background-color: #f0f0f0;
@@ -15,15 +14,15 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 70%; /* Posición del tooltip arriba del elemento padre */
+  bottom: 70%; 
   left: 20%;
-  margin-left: -60px; /* Centrar el tooltip */
-  opacity: 0; /* Hacer el tooltip transparente */
+  margin-left: -60px; 
+  opacity: 0; 
   transition: opacity 0.3s;
 }
 
-/* Mostrar el tooltip cuando se pasa el mouse sobre el elemento */
+
 .tooltip:hover .tooltiptext {
-  visibility: visible; /* Mostrar el tooltip */
-  opacity: 1; /* Hacer el tooltip visible */
+  visibility: visible; 
+  opacity: 1; 
 }
