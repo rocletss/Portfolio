@@ -4,9 +4,9 @@
 
 }
 
-/* Estilos para el texto del tooltip */
+
 .tooltip .tooltiptext {
-  visibility: hidden; /* Ocultar el tooltip por defecto */
+  visibility: hidden; 
   width: 120px;
   background-color: #f0f0f0;
   color: #000;

@@ -63,7 +63,8 @@ body{
 .bordes {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center; 
+      justify-content: space-around; 
+      align-items: center;
       padding: 1rem;
     }
 .ilust {
@@ -93,11 +94,7 @@ footer{
   border-radius: 6px;
   box-shadow:  0px 4px 10px black;
 }
-/*
-.email{
-      align-self: safe center;
 
-}*/
 .logotipo{
      margin: 0.4rem;
 
@@ -108,4 +105,8 @@ footer{
 .ilust {
     width: 100%; 
   }
+   .tooltip {
+    width: 100%; 
+    
+}
 }
